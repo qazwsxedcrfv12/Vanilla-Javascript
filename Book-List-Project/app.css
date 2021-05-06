@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(245, 193, 147);
+}
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 23px;
+  background-color: gold;
+  font-family: cursive;
+}
+input:hover {
+  background-color: rgb(236, 234, 234);
+}
+input[type="submit"]:hover {
+  background-color: rgb(162, 240, 159);
+}
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
