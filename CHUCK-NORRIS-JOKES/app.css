@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(241, 210, 132);
+  background-image: url("bg.jpeg");
+  /* background-repeat: no-repeat; */
+  background-size: 75%;
 }
 button {
   background-color: rgb(199, 195, 195);
@@ -43,4 +46,9 @@ input[type="number"] {
   border-radius: 23px;
   /* border: 1px solid black; */
   background-color: rgb(152, 187, 253);
+}
+#primary {
+  color: wheat;
+  font-size: 23px;
+  font-family: cursive;
 }
