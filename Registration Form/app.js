@@ -1,6 +1,5 @@
 
 
-
 document.querySelector('#btn').addEventListener('click',getData)
 
 
