@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="#">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="u-full-width">
+            </div>
+            <div>
+                <label for="phone">Phone No</label>
+                <input type="text" name="" id="phone" class="u-full-width">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <textarea id="address" cols="30" rows="10" class="u-full-width"></textarea>
+            </div>
+            <div>
+                <button id="btn" class="u-pull-right">Submit Now</button>
+            </div>
+        </form>
+        <table cellspacing="0px", border="0px" class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody class="data"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
