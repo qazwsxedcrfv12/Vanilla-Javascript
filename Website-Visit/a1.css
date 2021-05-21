@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(to top right, greenyellow 60%, red 25%);
+}
+.container {
+  border: 10px double rgb(235, 123, 12);
+  /* height: 400px; */
+  text-align: center;
+  margin-top: 290px;
+  background-color: rgb(230, 227, 227);
+}
+form {
+  margin-top: 54px;
+}
+input[type="text"] {
+  width: 600px;
+  background-color: rgb(248, 194, 194);
+}
+.name1 {
+  font-family: cursive;
+  font-size: 23px;
+  color: rgb(197, 10, 10);
+}
+#btn {
+  background-color: honeydew;
+  margin-right: 178px;
+  margin-top: 20px;
+}
+#btn:hover {
+  color: lawngreen;
+}
