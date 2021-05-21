@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(252, 218, 109);
+}
+h1 {
+  text-align: center;
+}
+.success {
+  background-color: chartreuse;
+  margin-top: 54px;
+  /* border-radius: 23px; */
+  color: azure;
+  padding: 13px;
+  text-align: center;
+  /* width: 100px; */
+}
+.failure {
+  color: azure;
+  background-color: red;
+  margin-top: 54px;
+  /* border-radius: 23px; */
+  padding: 13px;
+  text-align: center;
+  /* width: 100px; */
+}
+input {
+  background-color: rgb(218, 214, 214);
+}
+#btn {
+  background-color: rgb(209, 205, 205);
+}
