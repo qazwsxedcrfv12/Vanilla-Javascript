@@ -1,8 +1,8 @@
 body {
-  background-image: linear-gradient(to top right, greenyellow 60%, red 25%);
+  background-color: rgb(250, 146, 127);
 }
 .container {
-  border: 10px double rgb(235, 123, 12);
+  border: 10px double rgb(235, 124, 14);
   /* height: 400px; */
   text-align: center;
   margin-top: 290px;
@@ -27,4 +27,10 @@ input[type="text"] {
 }
 #btn:hover {
   color: lawngreen;
+}
+img {
+  width: 220px;
+  height: 200px;
+  border-radius: 20%;
+  margin-top: 23px;
 }
