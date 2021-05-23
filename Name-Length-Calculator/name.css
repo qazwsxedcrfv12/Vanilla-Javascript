@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(252, 245, 157);
+}
+.container {
+  border: 2px solid rgb(8, 226, 226);
+  text-align: center;
+  margin-top: 178px;
+  background-color: rgb(185, 247, 123);
+}
+form {
+  margin: 45px 54px;
+}
+h2 {
+  margin-top: 23px;
+  font-family: cursive;
+}
+input[type="text"] {
+  background-color: rgb(206, 247, 248);
+}
+#btn {
+  margin-bottom: 29px;
+  color: black;
+  background-color: rgb(243, 243, 138);
+}
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 20%;
+  margin-top: 23px;
+}
