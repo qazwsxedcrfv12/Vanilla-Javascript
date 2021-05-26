@@ -1,4 +1,8 @@
 # Javascript
+
+<i class="fab fa-js-square"></i>
+
+
 <b>This repository contains different mini projects made using Vanilla-JS and various concepts in JS.</b>
 
 <hr>
