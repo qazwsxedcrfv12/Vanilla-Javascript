@@ -10,3 +10,5 @@ Project 3 (Name Length Calculator)
 Project 4 (Website Visit)
 
 Project 5 (Book-List)
+
+Project 6 (Profile Scroller)
