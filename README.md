@@ -1,14 +1,16 @@
 # Javascript
 <b>This repository contains different mini projects made using Vanilla-JS and various concepts in JS.</b>
 
+<hr>
+
 <li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Mgic-Notes-Keeping">Project 1 (Magic Notes Keeping)</a></li>
 
-Project 2 (Chuck-Norris-Jokes)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/CHUCK-NORRIS-JOKES">Project 2 (Chuck-Norris-Jokes)</a></li>
 
-Project 3 (Name Length Calculator)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Name-Length-Calculator">Project 3 (Name Length Calculator)</a></li>
 
-Project 4 (Website Visit)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Website-Visit">Project 4 (Website Visit)</a></li>
 
-Project 5 (Book-List)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Book-List-Project">Project 5 (Book-List)</a></li>
 
-Project 6 (Profile Scroller)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Profile-Scroller">Project 6 (Profile Scroller)</a></li>
