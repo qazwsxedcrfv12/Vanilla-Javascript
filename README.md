@@ -1,7 +1,7 @@
 # Javascript
-This repository contains different mini projects made using Vanilla-JS and various concepts in JS.
+<b>This repository contains different mini projects made using Vanilla-JS and various concepts in JS.</b>
 
-Project 1 (Magic Notes Keeping)
+<li><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Mgic-Notes-Keeping">Project 1 (Magic Notes Keeping)</a></li>
 
 Project 2 (Chuck-Norris-Jokes)
 
