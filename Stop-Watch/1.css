@@ -1,0 +1,42 @@
+body {
+  background-image: url("clock.jpg");
+  background-size: cover;
+  background-position: left;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 14%;
+  margin-left: 55%;
+  width: 42vw;
+  height: 53vh;
+  background-color: rgb(243, 238, 237);
+  border-radius: 49px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+.container h2 {
+  margin-top: 23px;
+  font-family: cursive;
+}
+#btn {
+  background-color: green;
+  color: whitesmoke;
+  margin: 28px;
+}
+.item {
+  text-align: center;
+}
+#pause {
+  margin-top: 12px;
+  background-color: red;
+  color: whitesmoke;
+  margin: 29px;
+}
+#reset {
+  background-color: rgb(241, 241, 8);
+  margin: 23px;
+}
