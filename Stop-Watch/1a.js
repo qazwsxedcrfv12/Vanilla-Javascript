@@ -9,7 +9,7 @@ document.getElementById('reset').addEventListener('click',resetData)
 
 var timeValue = null;
 
-function setData(t,h,i,j){
+function setData(t,h,i,j){                  //Function to dynamically create stopwatch body
 
   let div=document.querySelector('.item');
  
