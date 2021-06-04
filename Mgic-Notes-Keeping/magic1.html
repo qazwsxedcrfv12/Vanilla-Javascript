@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magic Notes</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
-    />
-    <link rel="stylesheet" href="magic1.css" />
-  </head>
-  <body>
-    <img src="magic.jpeg" alt="" />
-    <div class="main">
-      <div class="head">
-        <h3 id="heading">Welcome to Magic Notes</h3>
-      </div>
-      <br />
-      <div class="content">
-        <form action="#">
-          <div>
-            <label for="name">Add a Note</label>
-            <input type="text" id="name" class="u-full-width" />
-          </div>
-          <div>
-            <button id="btn">Add note</button>
-          </div>
-        </form>
-      </div>
-      <br />
-      <div class="notes">
-        <h4>Your Notes</h4>
-        
-        <div class="check-notes"></div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magic Notes</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="magic1.css" />
+</head>
+
+<body>
+  <img src="magic.jpeg" alt="" />
+  <div class="main">
+    <div class="head">
+      <h3 id="heading">Welcome to Magic Notes</h3>
     </div>
+    <br />
+    <div class="content">
+      <form action="#">
+        <div>
+          <i class="fas fa-sticky-note fa-5x"></i>
+          <label for="name">Add a Note</label>
+          <input type="text" id="name" class="u-full-width" />
+        </div>
+        <div>
+          <button id="btn">Add note</button>
+        </div>
+      </form>
+    </div>
+    <br />
+    <div class="notes">
+      <h4>Your Notes</h4>
+      <div class="check-notes"></div>
+    </div>
+  </div>
 
-    <script src="magic1.js"></script>
-  </body>
+  <script src="magic1.js"></script>
+</body>
+
 </html>
