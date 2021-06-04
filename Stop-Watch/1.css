@@ -12,7 +12,7 @@ body {
   margin-top: 14%;
   margin-left: 55%;
   width: 42vw;
-  height: 53vh;
+  height: 57vh;
   background-color: rgb(243, 238, 237);
   border-radius: 49px;
   background-image: url("bg.jpg");
@@ -29,6 +29,9 @@ body {
 }
 .item {
   text-align: center;
+  font-size: 23px;
+  border: 2px double black;
+  padding: 12px;
 }
 #pause {
   margin-top: 12px;
