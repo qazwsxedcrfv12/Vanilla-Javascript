@@ -24,6 +24,8 @@
 <li color="violet"><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Time" color="violet">Project 7 (Time)</a></li>
 
 <li color="blue"><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Stop-Watch" color="blue">Project 8 (Stopwatch)</a></li>
+
+<li color="#fb1be1"><a href="https://github.com/qazwsxedcrfv12/Vanilla-Javascript/tree/master/Palindrome-Checker" color="#fb1be1">Project 9 (Palindrome Checker)</a></li>
 <hr>
   
 <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-a3299e55-f8d4-4359-a0e7-8b5b1ed212cd.jpg">
