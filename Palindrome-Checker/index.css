@@ -1,0 +1,31 @@
+body {
+  background-image: url("text.jpg");
+  background-size: cover;
+}
+.container {
+  border: 2px solid black;
+  text-align: center;
+  padding: 29px;
+  width: 800px;
+  font-family: cursive;
+  background-image: url("pencil.jpg");
+  background-size: cover;
+  margin-top: 320px;
+}
+.main {
+  margin: 29px;
+}
+input[type="text"] {
+  text-align: center;
+  background-color: rgb(250, 164, 164);
+  width: 600px;
+}
+#btn {
+  margin: 23px;
+  background-color: #0458a4;
+  color: blanchedalmond;
+}
+.results {
+  margin-top: 113px;
+  border-radius: 23px;
+}
