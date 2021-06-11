@@ -8,8 +8,9 @@ document.getElementById('reset').addEventListener('click',resetData)
 // --------------------------------------------------------------------------------------------------------------------------------
 
 var timeValue = null;
+var i=0,h=0,j=0;
 
-function setData(t,h,i,j){                  //Function to dynamically create stopwatch body
+function setData(t,h,i,j){
 
   let div=document.querySelector('.item');
  
@@ -43,20 +44,20 @@ function setData(t,h,i,j){                  //Function to dynamically create sto
     div.style.padding="13px"
     div.style.border="1px double black";
     div.style.borderRadius="23px"
-    div.style.background="#cfcbcb"
+    div.style.background="#48feb3"
 
 },t);
-
 }
 
 function getData(){                           //It will start the stopwatch
-    
+  
+  document.getElementById('btn').style.display="none"
    setData(10,0,0,0);
 }
 //---------------------------------------------------------------------------------------------
 
 function stopData(){                     //It will pause the stopwatch
-    
+  
    clearInterval(timeValue);
 }
 
@@ -66,5 +67,6 @@ function resetData(){                   //It will reset the value of stopwatch
    
    clearInterval(timeValue);
    
+   document.getElementById('btn').style.display="block"
    document.querySelector('.item').innerHTML="00:00:00";
 }
