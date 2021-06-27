@@ -1,0 +1,36 @@
+body {
+  background-image: url("number.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  padding: 85px;
+  background-color: tomato;
+  text-align: center;
+}
+
+input {
+  width: 40vw;
+}
+
+#btn {
+  background-color: rgb(5, 128, 199);
+  color: whitesmoke;
+}
+
+.results {
+  font-size: 2rem;
+}
+
+.success {
+  background-color: green;
+}
+
+.failure {
+  background-color: red;
+}
