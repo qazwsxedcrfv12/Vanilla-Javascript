@@ -1,0 +1,36 @@
+.main{
+    border: 1px solid black;
+    padding: 23px;
+    margin: 34px auto;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 12px;
+}
+button{
+    margin: 12px;
+    background-color: grey;
+    color: whitesmoke;
+}
+button:hover{
+     background-color: red;
+}
+.cus{
+    border-radius: 12px;
+    border: 0.5px solid black;
+    margin: 12px;
+    background-color: honeydew;
+}
+.cust{
+    border-radius: 12px;
+    border: 0.5px solid black;
+    margin: 12px;
+    background-color: honeydew;
+}
+code{
+    display: inline-block;
+    padding: 19px;
+    margin: 18px;
+    background-color: rgb(193, 193, 248);
+    font-size: 15px;
+    font-weight: bold;
+}
