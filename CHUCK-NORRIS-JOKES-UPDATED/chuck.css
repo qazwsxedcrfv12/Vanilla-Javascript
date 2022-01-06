@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+    background-image: url('chuckbg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.main{
+    border-radius: 12px;
+    text-align: center;
+    padding: 23px;
+    background-image: url('chuck.jpg');
+    background-position: center;
+    background-size: cover;
+}
+input{
+    text-align: center;
+}
+#btn{
+    background-color: rgb(27, 27, 252);
+    color: whitesmoke;
+    margin: 17px;
+}
+code{
+    display: inline-block;
+    padding: 17px;
+    margin: 23px;
+    background-color: rgb(150, 252, 218);
+    font-weight: bold;
+    font-size: 16px;
+}
+.jokes{
+    list-style: none;
+    background-color: rgb(247, 159, 159);
+    padding: 18px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.time{
+    background-color: greenyellow;
+    width: 100px;
+    padding: 12px;
+    margin: 19px auto;
+    font-weight: bold;
+    border-radius: 12px;
+}
