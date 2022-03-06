@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem-Statement</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="array.css">
+</head>
+<body>
+    <div class="main">
+        <h4>Maximum Cost Bits</h4>
+        <pre>You are given an Array consisting of N positive integers where each integer is a power of 2. Initially, the score is 0. You 
+can apply teh folowing operation until N>t;
+        </pre>
+        <ul>
+            <li>Choose two elements x and y</li>
+            <li>Add the value x ^ y to the score</li>
+            <li>Remove x and y from A</li>
+        </ul>
+        <h4>Task</h4>
+        <pre>Determine the maximum score that ca be obtained after applying at most [ N/2 ] operations.</pre>
+        <h4>Notes</h4>
+        <ul>
+            <li>The array may contain duplicate elements.</li>
+            <li>^ represents BITWISE XOR</li>
+        </ul>
+        <h4>Example: </h4>
+        <h4>Assumptions</h4>
+        <ul>
+            <li>N = 5</li>
+            <li>A = [1,2,64,64,32]</li>
+        </ul>
+        <h4>Approach</h4>
+        <ul>
+            <li>If you choose i=2 and j=4 after taking XOR of both elements at ith and jth positions, you will get 64^32 = 96. 
+                You add this value to the cost, now the array will become [1,2,64].
+            </li>
+            <li>In the second operation, you choose i=1 and j=2, we will get 2^64 = 66, Cost becomes 96+66 = 162, the array becomes [1].</li>
+            <li>Now, you cannot do more operations. You can show that this is the maximum xost that you can get.</li>
+        </ul>
+        <code>Hence the answer is 162</code>
+        <br><br>
+        <div class="test">
+            <label for="testcase">Enter the number of test-case</label>
+            <input type="text" name="case" id="testcase">
+            <br>
+            <input type="button" value="Submit" id="btn">
+        </div>
+        <div class="result">
+
+        </div>
+    </div>
+
+    <script src="array.js"></script>
+</body>
+</html>
